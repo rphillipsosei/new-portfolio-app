@@ -56,12 +56,12 @@ export default function Home() {
             <h1>RHODA PHILLIPS-OSEI</h1>
             <h3>Full Stack Web Developer</h3>
             <div className={styles.homebtns}>
-              <button
+              <span
                 className={styles.homebtn}
                 onClick={() => setAboutIsOpen(true)}
               >
                 ABOUT
-              </button>
+              </span>
               {setAboutIsOpen && (
                 <div className={styles.modalpositioning}>
                   <Modal
@@ -81,12 +81,12 @@ export default function Home() {
                 </div>
               )}
 
-              <button
+              <span
                 className={styles.homebtn}
                 onClick={() => setProjectsIsOpen(true)}
               >
                 PROJECTS
-              </button>
+              </span>
               {setProjectsIsOpen && (
                 <div className={styles.aboutwrapper}>
                   <div className={styles.modalpositioning}>
@@ -132,7 +132,7 @@ export default function Home() {
                 },
               },
             }}
-            className={styles.imgshadowpink}
+            className={styles.pink}
           ></motion.div>
 
           <motion.div
@@ -149,7 +149,7 @@ export default function Home() {
                 },
               },
             }}
-            className={styles.imgshadoworange}
+            className={styles.orange}
           ></motion.div>
           <motion.div
             initial="hidden"
@@ -165,7 +165,7 @@ export default function Home() {
                 },
               },
             }}
-            className={styles.imgshadowteal}
+            className={styles.blue}
           ></motion.div>
           <motion.div
             initial="hidden"
@@ -191,7 +191,10 @@ export default function Home() {
               src="/rho.webp"
               alt="Rhoda Phillips-Osei"
               className={styles.homeimg}
-              layout="fill"
+              width="100%"
+              height="100%"
+              layout="responsive"
+              objectFit="contain"
             ></Image>
           </motion.div>
           </div>

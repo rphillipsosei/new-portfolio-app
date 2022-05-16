@@ -68,21 +68,15 @@ span .carousel-control-next-icon {
   flex-direction: column;
   width: 100%;
 }
-@media screen and (max-width: 1440px) {
-  #nav-contents {
-  position: relative;
-  left: 5%
-  }
-}
+
 
 
 @media screen and (max-width: 480px) {
-
   #nav-contents {
-    position:unset;
-    left: 0%
-    }
-
+    position: unset;
+    left: 0%;
+  }
+  
   #homelink {
     left: 4%;
     font-size: 3rem;
