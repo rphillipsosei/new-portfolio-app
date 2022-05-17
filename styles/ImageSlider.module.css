@@ -16,9 +16,9 @@
 
 .rightarrow {
   position: absolute;
-  top: 50%;
-  right: 1%;
-  font-size: 300%;
+  top: 45%;
+  right: 2%;
+  font-size: 80px;
   color: #ffff;
   z-index: 10;
   cursor: pointer;
@@ -32,9 +32,9 @@
 
 .leftarrow {
   position: absolute;
-  top: 50%;
-  left: 1%;
-  font-size: 300%;
+  top: 45%;
+  left: 2%;
+  font-size: 80px;
   color: #ffff;
   z-index: 10;
   cursor: pointer;
