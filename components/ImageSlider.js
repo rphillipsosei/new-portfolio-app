@@ -74,11 +74,6 @@ const ImageSlider = ({ slides }) => {
                       <i>{slide.title}</i>
                     </div>
                     <motion.div
-                      whileHover={{
-                        scale: 1.5,
-                        transition: { duration: 1 },
-                      }}
-                      whileTap={{ scale: 0.9 }}
                       className={styles.projectcontainer}
                     >
                       <Image
